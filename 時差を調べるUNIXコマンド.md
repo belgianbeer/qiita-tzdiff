@@ -184,10 +184,10 @@ Usage: tzdiff [-0lvHN] [-n count] [-f format] [-t start] timezone [timezone ...]
 
 # 動作環境
 
-tzdiff そのものはシェルスクリプトであり、FreeBSD / NetBSD / OpenBSD / OS X / Debian / Ubuntu / CentOS での動作を確認している。UNIX系のOSであれば大部分のもので問題無く動作すると思われるが、date コマンドのオプションの違いで動かないものがあるかもしれない。その場合は GNU の date コマンドを用意すれば動くはずである。Windows の場合は、Windows Subsystem for Linux で利用できる。
+tzdiffそのものはシェルスクリプトであり、FreeBSD / NetBSD / OpenBSD / macOS / Debian / Ubuntu / CentOS での動作を確認している。UNIX系のOSであれば大部分のもので問題無く動作すると思われるが、date コマンドのオプションの違いで動かないものがあるかもしれない。その場合は GNU の date コマンドを用意すれば動くはずである。Windows の場合は、Windows Subsystem for Linux で利用できる。なおFreeBSDではpkg、NetBSDではpkgsrc、DebianやUbuntuではaptでインストールできる。macOSではMacPortsやHomeBrewでもインストールできる。
 
 # おわりに
 
 tzdiff の最初の版である timediff を作ったのは 2016年7月頃なので、すでに2年ほど経過し、機能追加や細かい修正を行っている。自分でも驚いたのだが Qiita に投降しようと下書きを書いたのが 2017年7月頃だったようである。すでに内容が古くなっていたため、現在の仕様に合わせて記事を修正した。
 
-2023-07-19 追記：その後細かい修正を行って、現在のバージョンは1.2である。
+2023-07-19追記：tzdiffのバージョン1.2に合わせて実行例を更新。
